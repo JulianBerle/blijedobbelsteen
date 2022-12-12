@@ -1,0 +1,67 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#navbar {
+    width: 100%;
+    position: relative;
+}
+
+.navbar_list {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.navbar_list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.navbar_list ul li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar_list ul li:nth-child(1) {
+    float: left;
+}
+
+.navbar_list ul li:nth-child(2) {
+    float: left;
+}
+
+.navbar_list ul li a {
+    color: #262626;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 100px 20px;
+}
+
+.navbar_list ul li a:hover {
+    color: red;
+    transition: .3s;
+}
+
+.navbar .logo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    content: "";
+    margin-left: -200px;
+    text-align: center;
+}
+
+.navbar .logo img {
+    max-width: 200px;
+    max-height: 200px;
+}
