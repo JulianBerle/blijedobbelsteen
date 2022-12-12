@@ -8,13 +8,57 @@
     }
 }
 
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Fonts */
+h1 { 
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+} 
+
+h3 { 
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p, a { 
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+} 
+
+blockquote { 
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5667px; 
 }
 
 body {
     margin: 0;
 }
+
+/* Navbar */
 
 #navbar {
     width: 100%;
@@ -36,6 +80,7 @@ body {
 .navbar_list ul li {
     float: none;
     display: inline-block;
+    padding: 100px 20px;
 }
 
 .navbar_list ul li:nth-child(1) {
@@ -52,7 +97,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-    padding: 100px 20px;
 }
 
 .navbar_list ul li a:hover {
