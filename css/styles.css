@@ -132,3 +132,31 @@ body {
     margin: 0 auto;
     z-index: -1;
 }
+
+/* Home */
+
+.home .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home .flex-container .flex-box {
+    border-radius: 50px;
+    background-color: #77c2ae;
+    display: flex;
+    justify-content: center;
+}
+
+.home .flex-container .flex-box img {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+.home .flex-container .flex-box img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
