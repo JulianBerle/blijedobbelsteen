@@ -210,6 +210,7 @@ footer {
     height: 7.5rem;
     padding: 0.5rem;
     border-radius: 50%;
+    animation: logo_animation 1s;
 }
 
 .footer-title span {
