@@ -218,6 +218,7 @@ footer {
     color: #0f172a;
     font-size: 0.875rem;
     line-height: 1.25rem;
+    min-width: 200px;
 }
 
 .footer-section-wrapper {
@@ -241,7 +242,7 @@ footer {
 
 .footer-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 5rem;
     list-style: none;
 }
@@ -257,9 +258,6 @@ footer {
 
 /* responsive Footer*/
 @media (min-width: 640px) {
-    .footer-container {
-        flex-direction: row;
-    }
 
     .footer-info {
         margin-left: 0;
@@ -280,7 +278,12 @@ footer {
 
     .footer-section-wrapper {
         flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
+        justify-content: center;
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .footer-list {
+        flex-direction: row;
     }
 }
