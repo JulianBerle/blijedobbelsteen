@@ -65,6 +65,8 @@ pre {
 
 body {
     margin: 0;
+    background-image: url("../assets/images/backgroundDBD.png");
+    height: 100%;
 }
 
 /* Navbar */
