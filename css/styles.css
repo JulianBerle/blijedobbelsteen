@@ -75,6 +75,27 @@ body {
     height: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #77c2ae;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3A4654; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #455363;
+  }
+
 /* Navbar */
 
 #navbar {
