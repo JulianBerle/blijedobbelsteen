@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta name="author" content="Top Tiers">
@@ -11,9 +12,6 @@
     <script src="https://kit.fontawesome.com/e6d99cb95a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
-
     <section class="navbar" id="navbar">
         <div class="logo">
             <a href=""><img src="./assets/images/logo.png" alt=""></a>
@@ -40,15 +38,21 @@
         <div class="background"></div>
     </section>
 
-    <section class="home">
+    <section class="contact">
         <div class="flex-container">
-            <div class="flex-box">
-                <img src="./assets/images/logo-here.png" alt="">
-                <button onclick="alert('In development')" class="btn-spel"><p>Speel!</p></button>
-            </div>
-            <div class="flex-box">
-                <img src="./assets/images/logo-here.png" alt="">
-                <button onclick="alert('In development')" class="btn-spel"><p>Speel!</p></button>
+            <div class="flex-box" id="contactContainer">
+                <h1>Contact</h1>
+                <form action="" id="contactForm">
+
+                    <input type="text" id="fname" name="firstname" placeholder="Voor naam..">
+                
+                    <input type="text" id="lname" name="lastname" placeholder="Achter naam..">
+                
+                    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
             </div>
         </div>
     </section>
@@ -75,7 +79,5 @@
             </div>
         </div>
     </footer>
-
-    
 </body>
 </html>
