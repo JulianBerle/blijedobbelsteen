@@ -9,8 +9,14 @@
 }
 
 /* Fonts */
+
+@font-face {
+    font-family: 'Rockwell Extra Bold';
+    src: url(./rockeb.ttf) format('truetype');
+}
+
 h1 { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 24px; 
     font-style: normal; 
     font-variant: normal; 
@@ -19,7 +25,7 @@ h1 {
 } 
 
 h2 { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 19px; 
     font-style: normal; 
     font-variant: normal; 
@@ -28,7 +34,7 @@ h2 {
 } 
 
 h3 { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
@@ -37,7 +43,7 @@ h3 {
 } 
 
 p, a { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 14px; 
     font-style: normal; 
     font-variant: normal; 
@@ -46,7 +52,7 @@ p, a {
 } 
 
 blockquote { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 21px; 
     font-style: normal; 
     font-variant: normal; 
@@ -55,7 +61,7 @@ blockquote {
 } 
 
 pre { 
-    font-family: Rockwell Extra Bold, Rockwell Bold, monospace; 
+    font-family: 'Rockwell Extra Bold'; 
     font-size: 13px; 
     font-style: normal; 
     font-variant: normal; 
@@ -104,7 +110,7 @@ body {
 }
 
 .navbar_list ul li a {
-    color: #262626;
+    color: rgb(79, 93, 115);
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
@@ -112,7 +118,7 @@ body {
 }
 
 .navbar_list ul li a:hover {
-    color: red;
+    color: white;
     transition: .3s;
 }
 
