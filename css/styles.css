@@ -136,11 +136,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     display: block;
+    transition: ease-in-out 0.3s;
 }
 
 .navbar_list ul li a:hover {
     color: white;
-    transition: .3s;
 }
 
 .navbar .logo {
@@ -234,11 +234,11 @@ body {
     height: 400px;
     padding: 50px;
     margin: auto;
+    transition: ease-in-out .3s;
 }
 
 .home .flex-container .flex-box img:hover {
     transform: scale(1.1);
-    transition: ease-in-out .3s;
 }
 
 /* Wie Zijn Wij */
@@ -369,6 +369,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    transition: ease-in-out .3s;
 }
 
 .btn-spel p {
@@ -378,7 +379,6 @@ footer {
 
 .btn-spel:hover {
     background-color: white;
-    transition: .4s ease-in-out;
     color: black;
 }
 
