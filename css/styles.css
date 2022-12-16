@@ -242,6 +242,9 @@ body {
 }
 
 /* Wie Zijn Wij */
+.WzW {
+    color: white;
+}
 
 .WzW .flex-container {
     display: flex;
