@@ -241,6 +241,32 @@ body {
     transition: ease-in-out .3s;
 }
 
+/* Wie Zijn Wij */
+
+.WzW .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.WzW .flex-container .flex-box {
+    border-radius: 50px;
+    background-color: #77c2ae;
+    width: 50%;
+    height: 650px;
+    padding: 50px;
+    margin: auto;
+}
+
+.WzW .flex-container .flex-box .WTitle {
+    text-align: center;
+}
+
+.WzW .flex-container .flex-box .WImage {
+    width: 125px;
+}
+
 /* Footer */
 
 footer {
