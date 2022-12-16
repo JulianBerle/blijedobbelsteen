@@ -478,30 +478,40 @@ footer {
     justify-content: center;
     text-align: center;
 }
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    box-shadow: 1px 1px 10px  rgb(94, 94, 94);
+
+  }
+
+  input::placeholder, textarea::placeholder {
+    font-size: 14px; 
+    font-weight: 900;
+    font-family: 'Rockwell Extra Bold';
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #4e5d72;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
+
+    font-size: 14px; 
+    font-weight: 900;
+    font-family: 'Rockwell Extra Bold';
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
-
