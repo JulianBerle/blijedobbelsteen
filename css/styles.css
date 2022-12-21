@@ -372,6 +372,19 @@ footer {
     transition: ease-in-out .3s;
 }
 
+.btn-uitleg {
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
 .btn-spel p {
     font-size: 25px;  
     font-weight: 800;  
