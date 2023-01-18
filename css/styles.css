@@ -241,25 +241,33 @@ body {
     transform: scale(1.1);
 }
 
-/* Wie Zijn Wij */
-.WzW {
-    color: white;
+/* Spellen */
+.popup { 
+    display: none;
+    position: relative;
+    z-index: 99999999999;
+    margin: 0 auto;
+
+    /* transform: translate(-50%, -50%); */
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
 }
 
-.WzW .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 5rem;
+.popup iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-.WzW .flex-container .flex-box {
-    border-radius: 50px;
-    background-color: #77c2ae;
-    width: 50%;
-    height: 650px;
-    padding: 50px;
-    margin: auto;
+.popup a {
+    color: black;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
 }
 
 .WzW .flex-container .flex-box .WTitle {
