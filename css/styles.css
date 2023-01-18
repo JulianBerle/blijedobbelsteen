@@ -272,12 +272,38 @@ body {
 
 .WzW .flex-container .flex-box .WTitle {
     text-align: center;
+    justify-content: center;
+}
+
+.WzW .flex-container .flex-box .WContent {
+    text-align: center;
+    justify-content: center;
+    color: rgb(79, 93, 115);
 }
 
 .WzW .flex-container .flex-box .WImage {
     width: 125px;
+    height: 125px;
+    justify-content: center;
 }
 
+.WzW .flex-container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.WzW .flex-box{
+    border-radius: 50px;
+    background-color: #77c2ae;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 67%;
+}
 /* Footer */
 
 footer {
