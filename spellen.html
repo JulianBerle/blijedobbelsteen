@@ -45,15 +45,23 @@
         <div class="flex-container">
             <div class="flex-box">
                 <img src="./assets/images/logo-here.png" alt="">
-                <button onclick="alert('In development')" class="btn-spel"><p>Speel!</p></button>
-                <p class="btn-uitleg" href="">Spel Uitleg..</p>
+                <button onclick="openPopUp()" class="btn-spel"><p>Speel!</p></button>
             </div>
             <div class="flex-box">
                 <img src="./assets/images/logo-here.png" alt="">
-                <button onclick="alert('In development')" class="btn-spel"><p>Speel!</p></button>
-                <p class="btn-uitleg" href="">Spel Uitleg..</p>
-
+                <button onclick="openPopUp()" class="btn-spel"><p>Speel!</p></button>
             </div>
+        </div>
+
+        <div class="popup spel1">
+            <div class="popup-content">
+                <a onclick="closePopUp()"><i class="fa-solid fa-xmark"></i></a>
+                <iframe src="https://game.julianberle.nl/"></iframe>
+            </div>
+        </div>
+
+        <div class="popup spel2">
+
         </div>
     </section>
 
@@ -80,6 +88,7 @@
         </div>
     </footer>
 
+    <script src="./js/script.js"></script>
     
 </body>
 </html>
