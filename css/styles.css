@@ -252,6 +252,7 @@ body {
     background-color: white;
     border-radius: 20px;
     width: 70%;
+<<<<<<< HEAD
 }
 
 .popup iframe {
@@ -273,32 +274,60 @@ body {
 /* Wie Zijn Wij */
 .WzW {
     color: white;
+=======
+>>>>>>> 9a3497f644a77e4ff77f4c67a58048378fca374b
 }
 
-.WzW .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 5rem;
+.popup iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-.WzW .flex-container .flex-box {
-    border-radius: 50px;
-    background-color: #77c2ae;
-    width: 50%;
-    height: 650px;
-    padding: 50px;
-    margin: auto;
+.popup a {
+    color: black;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
 }
 
 .WzW .flex-container .flex-box .WTitle {
     text-align: center;
+    justify-content: center;
+}
+
+.WzW .flex-container .flex-box .WContent {
+    text-align: center;
+    justify-content: center;
+    color: rgb(79, 93, 115);
 }
 
 .WzW .flex-container .flex-box .WImage {
     width: 125px;
+    height: 125px;
+    justify-content: center;
 }
 
+.WzW .flex-container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.WzW .flex-box{
+    border-radius: 50px;
+    background-color: #77c2ae;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 67%;
+}
 /* Footer */
 
 footer {
@@ -401,6 +430,19 @@ footer {
     transition: ease-in-out .3s;
 }
 
+.btn-uitleg {
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
 .btn-spel p {
     font-size: 25px;  
     font-weight: 800;  
@@ -470,6 +512,14 @@ footer {
         width: 300px;
         height: 300px;
         padding: 20px;
+    }
+
+    .contact {
+        margin-top: 10%;
+    }
+
+    .WzW {
+        margin-top: 10%;
     }
 }
 
