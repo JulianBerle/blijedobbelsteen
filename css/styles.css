@@ -292,6 +292,19 @@ body {
     font-size: 20px;
 }
 
+.popup-content {
+    display: none;
+}
+
+.popup .speluitleg {
+    text-align: center;
+    padding: 20px;
+}
+
+.popup .speluitleg i {
+    padding: 10px;
+}
+
 .WzW .flex-container .flex-box .WTitle {
     text-align: center;
 }
