@@ -261,21 +261,6 @@ body {
     border: none;
 }
 
-.popup a {
-    color: black;
-    float: right;
-    position: relative;
-    cursor: pointer;
-    right: 20px;
-    top: 20px;
-    font-size: 20px;
-}
-
-/* Wie Zijn Wij */
-.WzW {
-    color: white;
-}
-
 .popup iframe {
     width: 100%;
     height: 100%;
@@ -297,12 +282,24 @@ body {
 }
 
 .popup .speluitleg {
+    background-color: #77c2ae;
     text-align: center;
     padding: 20px;
+    border-radius: 20px;
+    color: rgb(79, 93, 115);
 }
 
 .popup .speluitleg i {
     padding: 10px;
+}
+
+.popup .speluitleg h1, .popup .speluitleg h2 {
+    color: #fff;
+}
+
+/* Wie Zijn Wij */
+.WzW {
+    color: white;
 }
 
 .WzW .flex-container .flex-box .WTitle {
