@@ -294,19 +294,17 @@ body {
 
 .WzW .flex-container .flex-box .WTitle {
     text-align: center;
-    justify-content: center;
 }
 
 .WzW .flex-container .flex-box .WContent {
     text-align: center;
-    justify-content: center;
     color: rgb(79, 93, 115);
 }
 
 .WzW .flex-container .flex-box .WImage {
     width: 125px;
     height: 125px;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .WzW .flex-container{
@@ -324,7 +322,7 @@ body {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    width: 67%;
+    width: 75%;
 }
 /* Footer */
 
@@ -618,5 +616,6 @@ input[type=text], input[type=email], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #fff;
+    color: #000;
   }
