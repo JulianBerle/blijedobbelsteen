@@ -1,8 +1,5 @@
-test
+# De Blije Dobbelsteen
 
-# hoi
+**Gemaakt door:** Julian Berle, Julian Croeze, Michiel Huizer, Yunus Emre Yilmaz en Ali Avci
 
-yunus
-
-
-Website URL: https://julianberle.github.io/blijedobbelsteen/
+[Website](http://577273.klas4s22.mid-ica.nl/blijedobbelsteen)
